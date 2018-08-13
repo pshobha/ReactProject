@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<File /> renders a file with file name, date added, and username 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      style={
+        Object {
+          "borderLeft": "0px solid deepskyblue",
+        }
+      }
+    >
+      Genghis-Khan.png
+    </div>
+    <div>
+      3/10/2017
+    </div>
+    <div>
+      Erich Ludendorff
+    </div>
+  </div>
+</div>
+`;

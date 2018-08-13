@@ -1,0 +1,13 @@
+.table {
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 30px;
+	padding: 30px;
+	background-color: thistle;
+	position: relative;
+}
+
+.table h1 {
+	margin: 0;
+	padding-bottom: 10px;
+}

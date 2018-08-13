@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilesList /> renders a list a files 1`] = `
+<div
+  className="table"
+>
+  <h1>
+    Ye olde files
+  </h1>
+  <TableHeaders />
+  <Folder
+    folder={
+      Object {
+        "id": "folder1",
+      }
+    }
+    indentationLevel={1}
+  />
+  <Folder
+    folder={
+      Object {
+        "id": "folder2",
+      }
+    }
+    indentationLevel={1}
+  />
+  <Folder
+    folder={
+      Object {
+        "id": "folder3",
+      }
+    }
+    indentationLevel={1}
+  />
+</div>
+`;

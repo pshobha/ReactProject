@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Folder /> renders a file with file name, date added, and username 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      style={
+        Object {
+          "borderLeft": "0px solid deepskyblue",
+        }
+      }
+    >
+      Folder 1
+    </div>
+    <div>
+      3/10/2017
+    </div>
+    <div>
+      Wilhelm II
+    </div>
+  </div>
+  <Folder
+    folder={
+      Object {
+        "addedBy": Object {
+          "id": "user1",
+          "name": "Wilhelm II",
+        },
+        "files": Array [],
+        "folders": Array [],
+        "id": "folder2",
+        "name": "Folder 2",
+      }
+    }
+    indentationLevel={1}
+  />
+  <File
+    file={
+      Object {
+        "addedBy": Object {
+          "id": "user1",
+          "name": "Erich Ludendorff",
+        },
+        "dateAdded": 1489183017615,
+        "id": "file1",
+        "name": "Genghis-Khan.png",
+      }
+    }
+    indentationLevel={1}
+  />
+</div>
+`;

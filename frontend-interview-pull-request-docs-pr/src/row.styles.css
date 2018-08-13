@@ -1,0 +1,14 @@
+.row {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 2px dashed papayawhip;
+}
+
+.row > * {
+	width: 200px;
+}
+
+.name {
+	cursor: pointer;
+}

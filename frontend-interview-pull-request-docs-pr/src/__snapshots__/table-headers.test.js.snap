@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableHeaders /> renders some table headers 1`] = `
+<div
+  className="tableHeader"
+>
+  <div>
+    Name
+  </div>
+  <div>
+    Date added
+  </div>
+  <div>
+    Added by
+  </div>
+</div>
+`;

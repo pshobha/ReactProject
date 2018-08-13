@@ -1,0 +1,8 @@
+.row {
+	composes: row from './row.styles.css';
+	background-color: lawngreen;
+}
+
+.name {
+	composes: name from './row.styles.css';
+}
